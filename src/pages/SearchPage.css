@@ -1,0 +1,109 @@
+.searchPage__headerTop {
+  padding: 10px 30px;
+}
+
+.searchPage__headerTop,
+.searchPage__headerSearch {
+  display: flex;
+  align-items: center;
+}
+
+.searchPage__headerSearch > .search > .search__input {
+  margin: 0px;
+}
+
+.searchPage__headerLogo {
+  padding-top: 5px;
+  height: 52px;
+  margin-right: 30px;
+}
+
+.searchPage__headerBottom,
+.searchPage__optionsLeft,
+.searchPage__optionsRight {
+  display: flex;
+  align-items: center;
+}
+
+.searchPage__option {
+  display: flex;
+  align-items: center;
+  color: gray;
+  margin-right: 20px;
+}
+
+.searchPage__option > .MuiSvgIcon-root {
+  padding-top: 3px;
+  padding-right: 3px;
+}
+
+.searchPage__option a {
+  text-decoration: none;
+  color: gray;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.searchPage__headerBottom {
+  margin-top: 15px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid lightgray;
+}
+
+.searchPage__optionsLeft {
+  margin-left: 14rem;
+}
+
+.searchPage__resultCount {
+  margin-left: 40px;
+  margin-bottom: 15px;
+}
+
+.searchPage__optionsRight {
+  margin-left: 80px;
+}
+
+.searchPage__resultCount {
+  color: gray;
+  padding-top: 15px;
+  font-size: 14px;
+  -webkit-transform: scale(1.15, 1); /* Safari and Chrome */
+  -moz-transform: scale(1.15, 1); /* Firefox */
+  -ms-transform: scale(1.15, 1); /* IE 9 */
+  -o-transform: scale(1.15, 1); /* Opera */
+  transform: scale(1.15, 1); /* W3C */
+}
+
+.searchPage__results {
+  max-width: 60vw;
+  margin-left: 240px;
+  margin-bottom: 100px;
+}
+
+.searchPage__result {
+  margin: 20px 0;
+  text-decoration: none;
+}
+
+.searchPage__resultimage {
+  object-fit: contain;
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+}
+
+.searchPage__resultTitle {
+  text-decoration: none;
+}
+
+.searchPage__resultTitle:hover {
+  text-decoration: underline;
+}
+
+.searchPage__resultTitle > h2 {
+  font-weight: 550;
+}
+
+.Snippet {
+  margin-top: 10px;
+}
